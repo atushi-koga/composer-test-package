@@ -1,4 +1,15 @@
 {
     "name": "koga/composer-test-package",
-    "require": {}
+    "authors": [
+        {
+            "name": "koga atsushi",
+            "email": "koga@example.gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Koga\\ComposerTest\\": "src/"
+        }
+    }
 }
